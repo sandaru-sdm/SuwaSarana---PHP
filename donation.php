@@ -127,7 +127,7 @@ if (isset($_SESSION["suwasarana"]["name"])) {
         // Put the payment variables here
         var payment = {
             "sandbox": true,
-            "merchant_id": "1221564", // Replace your Merchant ID
+            "merchant_id": "YOUR_MERCHANT_ID", // Replace your Merchant ID
             "return_url": "http://localhost/SuwaSaranaNew/success.php", // Important
             "cancel_url": "http://localhost/SuwaSaranaNew/Error.php", // Important
             "notify_url": "http://sample.com/notify",
