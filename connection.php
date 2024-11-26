@@ -7,7 +7,7 @@ class Database{
     public static function setUpConnection(){
         if(!isset(Database::$connection)){
             Database::$connection = 
-            new mysqli("localhost","suwasara_sandaru","dilshan2000","suwasara_suwasarana","3306");
+            new mysqli("localhost","YOUR_DB_USENAME","YOUR_DB_PASSWORD","suwasara_suwasarana","3306");
         }
     }
 
@@ -24,6 +24,6 @@ class Database{
 
 }
 
-$conn = mysqli_connect("localhost","suwasara_sandaru","dilshan2000","suwasara_suwasarana","3306");
+$conn = mysqli_connect("localhost","YOUR_DB_USENAME","YOUR_DB_PASSWORD","suwasara_suwasarana","3306");
 
 ?>
